@@ -81,8 +81,8 @@ COLUNAS = {
     "maior_processo_ram":     ("maior_processo_ram",     "texto", 1, None),
     "maior_processo_ram_pct": ("maior_processo_ram_pct", "pct",   1, 2),
 
-    "download_mbps":          ("download_mbps",          "num",   BITS_POR_MBIT, 2),
-    "upload_mbps":            ("upload_mbps",            "num",   BITS_POR_MBIT, 2),
+    "download_mbps":          ("download_bps",          "num",   BITS_POR_MBIT, 2),
+    "upload_mbps":            ("upload_bps",            "num",   BITS_POR_MBIT, 2),
     "latencia_ms":            ("latencia_ms",            "num",   1, 2),
     "packet_loss":            (None,                     "int",   1, None),
     "package_loss_sent":      ("package_loss_sent",      "int",   1, None),
